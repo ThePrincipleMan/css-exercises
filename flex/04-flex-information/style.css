@@ -20,7 +20,27 @@ img {
   right: 0;
   height: 52px;
   display: flex;
-  align-items: center;
+  align-items: center;;
   justify-content: center;
   background: #eee;
+}
+
+/* SOLUTION */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+ 
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  max-width: 200px;
 }

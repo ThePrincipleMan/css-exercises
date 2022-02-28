@@ -7,8 +7,9 @@ html, body {
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
-  background: #aaa;
+  background: #aaa; 
   color: #333;
+  padding: 20px;
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
@@ -20,6 +21,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+
 }
 
 .icon {
@@ -33,6 +36,30 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 14px 6px;
+  /* Imp point here only to use  flex-shrink */
+  flex-shrink: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.first-line {
+  margin: 12px 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  gap: 14px;
+}
+
+.header {
+  font-weight: 700;
 }
 
 .close-button {
